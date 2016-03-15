@@ -11,7 +11,7 @@ public class FindJsonDao {
 	public String getJsonById(String id)
 	{
 		String json=null;
-		Connection	con;
+		Connection con;
 		ResultSet res;
 		Statement sta;
 		if(id==null)
